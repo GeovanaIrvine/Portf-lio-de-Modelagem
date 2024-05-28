@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    margin-left: 800px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.todo_o_conteudo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 100px
+}
+
+.textos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 400px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Girassol';
+}
+
+.paragrafo {
+    padding-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.email {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.botao_email {
+    border-radius: 100%;
+    border-color: #fff;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    background: black;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+    margin-top: 70px;
+    padding-right: 230px;
+    margin-bottom: 200px;
+    position: relative; /* Adiciona position: relative; para que o z-index funcione */
+}
+
+.foto_1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: absolute;
+    left: 230px;
+}
+
+
+.foto_2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+.foto_3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: absolute;
+    left: 230px;
+}
+
+.foto_4 {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+.sobre_mim {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+h1 {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Girassol';
+}
+
+.texto_sobre_mim {
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.linha-divisoria {
+    border: 1px solid #ccc; /* Define uma borda sólida de 1px com a cor cinza claro */
+    margin-bottom: 10px; /* Adiciona um espaço entre as divs */
+}
+
+.conteudo_contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_e_imagem_contatos {
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-contato {
+    width: 400px;
+}
+
+.endereco {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   margin-right: 400px;
+   width: 150px;
+   margin-top: 200px;
+}
+
+.paragrafo-endereco {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.email-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-right: x;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.paragrafo-email {
+    padding-top: 10px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-right: x;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.paragrafo-telefone {
+    padding-top: 10px;
+}
+
+.img_sobre_mim_parte_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.paragrafo_sobre_mim_parte_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: #fff;
+    padding-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 200px;
+}
+
+.linha-divisoria {
+    border: 1px solid #ccc; /* Define uma borda sólida de 1px com a cor cinza claro */
+    margin-bottom: 10px; /* Adiciona um espaço entre as divs */
+}
+
+.imgs_sobre_mim_parte_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.paragrafo_campanha_editoral_parte_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: #fff;
+    padding-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.titulo-dados-e-medidas {
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.imagens-dados-e-medicas {
+    border-radius: 100%;
+    width: 500px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.dados-e-medidas-imagens {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 150px;
+    padding-bottom: 50px;
+}
+
+.dados-e-medidas-paragrafos {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 600px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
